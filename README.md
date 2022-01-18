@@ -15,4 +15,11 @@ model.pkl - Alphafold output pickle file. Amino acid sequence of the alphafold o
 - pickle
 - numpy
 
+# Necessary postprocessing
+
+- set the number of atoms in WHOLEMOLECULE to the number of atoms in the protein (default all atoms in model.gro)
+- set up metadynamics or other enhanced sampling method according to Plumed documentation
+- set epsilon if necessary (default no epsilon)
+- set lambda (default 1000)
+
 
